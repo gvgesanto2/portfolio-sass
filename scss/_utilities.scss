@@ -37,6 +37,25 @@
   background-color: $primary-color;
 }
 
+.bg {
+  &-primary {
+    background: $primary-color;
+    color: set-text-color($primary-color);
+  }
+  &-dark {
+    background: $dark-color;
+    color: set-text-color($dark-color);
+  }
+  &-light {
+    background: $light-color;
+    color: set-text-color($light-color);
+  }
+  &-medium {
+    background: $medium-color;
+    color: set-text-color($medium-color);
+  }
+}
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
