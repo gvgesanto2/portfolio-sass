@@ -8,6 +8,6 @@
   "author": "Gabriel Santo <gvgesanto2@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   }
 }
